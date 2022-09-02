@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("AppBar Widget"),
+          title: const Text("Aplikasi Hello World"),
           leading: const Icon(Icons.menu_open),
           actions: const [
             Icon(Icons.notification_add),
@@ -25,6 +25,9 @@ class MyApp extends StatelessWidget {
             Icon(Icons.shopping_cart),
             SizedBox(width: 5.0),
           ],
+          backgroundColor: Colors.blue[400],
+          centerTitle: true,
+          elevation: 0,
         ),
         body: const Center(
           child: Text("Hello World"),
@@ -33,11 +36,10 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 ```
-
 
 __Output:__
 
+<img src="https://user-images.githubusercontent.com/88677064/188051015-b239c7aa-85fa-47a9-b275-2cef43fc619d.png" widht="500" height="500"/> 
 
 [__-->AppBar Reference<--__](https://api.flutter.dev/flutter/material/AppBar-class.html)
