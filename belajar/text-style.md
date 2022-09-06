@@ -22,7 +22,7 @@ class AplikasiTextStyle extends StatelessWidget {
             fontSize: 30,
             decoration: TextDecoration.underline,
             decorationColor: Colors.red,
-            decorationThickness: 2,
+            decorationThickness: 5,
             decorationStyle: TextDecorationStyle.wavy),
           ),
         ),
@@ -35,7 +35,7 @@ class AplikasiTextStyle extends StatelessWidget {
 
 __Output:__
 
-<img src="https://user-images.githubusercontent.com/88677064/188572227-fa75b6aa-085d-492b-a5dd-031f4f6caba0.png" width="200" height="300">
+<img src="https://user-images.githubusercontent.com/88677064/188572985-7eaa03a9-911c-440a-9b0c-acdd65b0748b.png" width="200" height="300">
 
 
 [__-->Title Reference<--__]
