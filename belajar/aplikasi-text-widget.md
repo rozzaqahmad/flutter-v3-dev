@@ -1,6 +1,8 @@
-Text Widget
+# Aplikasi Text Widget
 
-,,,
+__Sample code:__
+
+```dart
 
 import 'package:flutter/material.dart';
 
@@ -42,7 +44,10 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-,,,
 
----upload---
+```
 
+__Output:__
+
+
+[__-->Title Reference<--__]()
