@@ -26,7 +26,28 @@ class _AplikasiTextFieldState extends State<AplikasiTextField> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
+            // TextField dan Text Decoration
             TextField(
+              decoration: InputDecoration(
+                fillColor: Colors.lightBlue[50],
+                filled: true,
+                icon: const Icon(Icons.adb),
+                suffix: Container(
+                  width: 5,
+                  height: 5,
+                  color: Colors.red,
+                ),
+                prefixIcon: const Icon(Icons.person),
+                prefixText: "Name:",
+                prefixStyle: const TextStyle(
+                    color: Colors.blue, fontWeight: FontWeight.w600),
+                labelText: "Nama Lengkap:",
+                hintText: "Nama Lengkap nya..",
+                hintStyle: const TextStyle(fontSize: 12),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
               onChanged: (value) {
                 setState(
                   () {},
@@ -42,10 +63,11 @@ class _AplikasiTextFieldState extends State<AplikasiTextField> {
   }
 }
 
+
 ```
 
 __Output:__
 
-<img src="https://user-images.githubusercontent.com/88677064/189658211-401e17e2-4419-47cc-898b-82a5baa64b4c.png" width="200" height="400">
+<img src="https://user-images.githubusercontent.com/88677064/189789948-417f6c4f-5dd9-404d-a5c4-77b016444fa2.png" width="200" height="400">
 
 [__-->Title Reference<--__]()
