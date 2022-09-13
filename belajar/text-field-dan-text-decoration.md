@@ -20,6 +20,7 @@ class _AplikasiTextFieldState extends State<AplikasiTextField> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Latihan Text Field"),
+        centerTitle: true,
       ),
       body: Container(
         margin: const EdgeInsets.all(20),
@@ -68,6 +69,7 @@ class _AplikasiTextFieldState extends State<AplikasiTextField> {
 
 __Output:__
 
-<img src="https://user-images.githubusercontent.com/88677064/189789948-417f6c4f-5dd9-404d-a5c4-77b016444fa2.png" width="200" height="400">
+<img src="https://user-images.githubusercontent.com/88677064/189790299-310eaf2d-9d53-404d-b741-2a2d0279bd02.png"
+width="200" height="400">
 
 [__-->Title Reference<--__]()
