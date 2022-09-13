@@ -15,6 +15,7 @@ class ButtonGradasi extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Tombol Gradasi"),
+        centerTitle: true,
       ),
       body: Center(
         child: Column(
@@ -71,6 +72,6 @@ class ButtonGradasi extends StatelessWidget {
 
 __Output:__
 
-<img src="https://user-images.githubusercontent.com/88677064/189810712-38e2b65e-5361-48a0-92af-1aae9fffe7d1.png" width="200" height="400">
+<img src="https://user-images.githubusercontent.com/88677064/189811091-a314f2da-4bca-4cc4-8532-f51072d2209c.png" width="200" height="400">
 
 [__-->Title Reference<--__]()
