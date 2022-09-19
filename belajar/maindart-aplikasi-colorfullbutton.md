@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text("Colorfull Button"),
+          centerTitle: true;
         ),
         body: Center(
           child: Row(
