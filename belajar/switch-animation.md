@@ -38,8 +38,11 @@ class _TombolAnimasiSwitchState extends State<TombolAnimasiSwitch> {
             // AnimatedSwitcher akan membutuh kan child untuk animasi yang akan di ubah2
             AnimatedSwitcher(
               duration: const Duration(seconds: 1),
-            // transitionBuilder adalah untuk perubahan2 animasi, dan membutuh kan animation yang berisi komponen untuk perubahan animasi nya
-              transitionBuilder: ((child, animation) => ScaleTransition(scale: animation, child: child,)),
+              // transitionBuilder adalah untuk perubahan2 animasi, dan membutuh kan animation yang berisi komponen untuk perubahan animasi nya
+              transitionBuilder: ((child, animation) => ScaleTransition(
+                    scale: animation,
+                    child: child,
+                  )),
               child: myWidget,
             ),
             // Switch membutuhkan value untuk posisi awal nya, apakah di on atau di off, dan onPress ketika di tekan
@@ -76,7 +79,7 @@ class _TombolAnimasiSwitchState extends State<TombolAnimasiSwitch> {
                           border: Border.all(color: Colors.black, width: 3),
                         ),
                       );
-                      // itu adalah contoh Switch animation dari container ke text, jikalau animasi nya dari container ke container maka jangan lupa berikan key: ValueKey(2) di container nya agar animasi container nya terlihat. 
+                    // itu adalah contoh Switch animation dari container ke text, jikalau animasi nya dari container ke container maka jangan lupa berikan key: ValueKey(2) di container nya agar animasi container nya terlihat.
                   },
                 );
               },
@@ -87,6 +90,7 @@ class _TombolAnimasiSwitchState extends State<TombolAnimasiSwitch> {
     );
   }
 }
+
 
 ```
 
