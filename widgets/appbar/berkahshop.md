@@ -37,7 +37,7 @@ class BerkahShop extends StatelessWidget {
             child: Row(
               children: const <Widget>[
                 SizedBox(
-                  width: 40,
+                  width: 45,
                 ),
                 Tab(
                   icon: Icon(Icons.qr_code_2),
@@ -154,7 +154,7 @@ class BerkahShop extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(
-                    height: 4,
+                    height: 0,
                   ),
                   // Baris ke dua
                   Row(
@@ -309,7 +309,20 @@ class BerkahShop extends StatelessWidget {
               ),
             ),
           ),
-          const Text("Selalu ada di Berkah shop")
+          Container(
+            margin: const EdgeInsets.only(left: 35.0, top: 645.0),
+            child: const Text(
+              "Selalu ada di Berkahshop",
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+          ),
+          Container(
+            margin: const EdgeInsets.only(left: 35.0, top: 670.0),
+            child: const Text(
+              "Mudah Dapatkan Info Akses Terbaru",
+              style: TextStyle(fontSize: 12.0, color: Colors.grey),
+            ),
+          )
         ],
       ),
     );
@@ -317,10 +330,11 @@ class BerkahShop extends StatelessWidget {
 }
 
 
+
 ```
 
 __Output:__
 
-<img src="https://user-images.githubusercontent.com/88677064/191656833-c392552d-2cb4-454f-be18-d328663e541c.png" width="200" height="400">
+<img src="https://user-images.githubusercontent.com/88677064/191889558-3a6de960-54a5-4a09-9607-4b29c4aa5311.png" width="200" height="400">
 
 [__-->Title Reference<--__]()
