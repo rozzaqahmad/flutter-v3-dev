@@ -78,237 +78,40 @@ class BerkahShop extends StatelessWidget {
               ),
               margin: const EdgeInsets.fromLTRB(15, 340, 15, 250),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  const SizedBox(height: 25),
                   // Produk 1
                   Row(
                     children: [
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 0),
-                        child: const Icon(Icons.phone_android,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Produk 2
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 40),
-                        child: const Icon(Icons.four_g_mobiledata_sharp,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Produk 3
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.health_and_safety,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Produk 4
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.sports_esports,
-                            color: Colors.lightBlueAccent),
-                      ),
+                      Produk(Icons.phone_android),
+                      Produk(Icons.four_g_mobiledata_sharp),
+                      Produk(Icons.health_and_safety),
+                      Produk(Icons.sports_esports),
                     ],
                   ),
-                  const SizedBox(
-                    height: 0,
-                  ),
-                  // Baris ke dua
+                  const SizedBox(height: 25),
                   Row(
                     children: [
-                      // Produk ke 5
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.electric_bolt,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Produk ke 6
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.crisis_alert,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Produk ke 7
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.circle_outlined,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Produk ke 8
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.water_drop,
-                            color: Colors.lightBlueAccent),
-                      ),
+                      Produk(Icons.electric_bolt),
+                      Produk(Icons.crisis_alert),
+                      Produk(Icons.circle_outlined),
+                      Produk(Icons.water_drop),
                     ],
                   ),
-                  const SizedBox(
-                    height: 17,
-                  ),
-                  // Baris ke tiga
+                  const SizedBox(height: 25),
                   Row(
                     children: [
-                      // Produk ke 9
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.shopify_rounded,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Produk ke 10
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.perm_phone_msg_outlined,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Produk ke 11
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.sports_motorsports_outlined,
-                            color: Colors.lightBlueAccent),
-                      ),
-                      // Icon lain nya ke 12
-                      Container(
-                        width: 40,
-                        height: 40,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            gradient: const LinearGradient(
-                                colors: [
-                                  Color.fromARGB(255, 225, 234, 235),
-                                  Color.fromARGB(255, 236, 242, 244),
-                                ],
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter)),
-                        margin: const EdgeInsets.fromLTRB(40, 10, 0, 10),
-                        child: const Icon(Icons.dataset_outlined,
-                            color: Colors.lightBlueAccent),
-                      ),
+                      Produk(Icons.shopify_rounded),
+                      Produk(Icons.perm_phone_msg_outlined),
+                      Produk(Icons.sports_motorsports_outlined),
+                      Produk(Icons.dataset_outlined),
                     ],
                   ),
                 ],
               ),
             ),
           ),
+          // Text selau ada di Berkah shop
           Container(
             margin: const EdgeInsets.only(left: 35.0, top: 645.0),
             child: const Text(
@@ -322,8 +125,51 @@ class BerkahShop extends StatelessWidget {
               "Mudah Dapatkan Info Akses Terbaru",
               style: TextStyle(fontSize: 12.0, color: Colors.grey),
             ),
-          )
+          ),
+          // container banner
+          Container(
+            width: 320,
+            height: 130,
+            margin: const EdgeInsets.only(left: 30.0, top: 700.0),
+            // decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
+            child: const Image(
+              image: AssetImage("assets/images/bannershop.jpg"),
+              fit: BoxFit.cover,
+            ),
+          ),
         ],
+      ),
+    );
+  }
+}
+
+// ignore: must_be_immutable
+class Produk extends StatefulWidget {
+  IconData iconData;
+
+  Produk(this.iconData, {Key? key}) : super(key: key);
+
+  @override
+  State<Produk> createState() => _ProdukState();
+}
+
+class _ProdukState extends State<Produk> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 40,
+      height: 40,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(10),
+        gradient: const LinearGradient(colors: [
+          Color.fromARGB(255, 225, 234, 235),
+          Color.fromARGB(255, 236, 242, 244),
+        ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
+      ),
+      margin: const EdgeInsets.fromLTRB(40, 10, 0, 0),
+      child: Icon(
+        widget.iconData,
+        color: Colors.lightBlue,
       ),
     );
   }
@@ -335,6 +181,6 @@ class BerkahShop extends StatelessWidget {
 
 __Output:__
 
-<img src="https://user-images.githubusercontent.com/88677064/191889558-3a6de960-54a5-4a09-9607-4b29c4aa5311.png" width="200" height="400">
+<img src="https://user-images.githubusercontent.com/88677064/192685122-3cab12f3-aa7a-4505-bcb9-88df817c1566.png" width="200" height="400">
 
 [__-->Title Reference<--__]()
