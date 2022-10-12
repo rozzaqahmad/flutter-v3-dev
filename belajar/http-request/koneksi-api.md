@@ -57,7 +57,7 @@ class BelajarGetData extends StatelessWidget {
 
 __Output:__
 
-<http://https://user-images.githubusercontent.com/88677064/195230659-60cf23ca-a3a9-4e1f-884b-2d486e71ea73.png
+<img src= "https://user-images.githubusercontent.com/88677064/195230659-60cf23ca-a3a9-4e1f-884b-2d486e71ea73.png"
  width="200" height="400">
 
 [__-->Title Reference<--__]()
